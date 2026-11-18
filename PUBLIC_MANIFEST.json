@@ -1,0 +1,42 @@
+{
+  "name": "stem-education-hub",
+  "version": "1.0.0",
+  "description": "stem-education-hub repository",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myzticalbabe/stem-education-hub.git"
+  },
+  "homepage": "https://github.com/myzticalbabe/stem-education-hub",
+  "bugs": {
+    "url": "https://github.com/myzticalbabe/stem-education-hub/issues"
+  },
+  "license": "MIT",
+  "author": "stem-education-hub Contributors",
+  "maintainers": [
+    {
+      "name": "myzticalbabe",
+      "email": "maintainers@myzticalbabe.com",
+      "web": "https://github.com/myzticalbabe"
+    }
+  ],
+  "keywords": [
+    "stem",
+    "education",
+    "open-source"
+  ],
+  "categories": [
+    "education",
+    "stem"
+  ],
+  "support": {
+    "documentation": "https://github.com/myzticalbabe/stem-education-hub/wiki",
+    "discussions": "https://github.com/myzticalbabe/stem-education-hub/discussions",
+    "security": "https://github.com/myzticalbabe/stem-education-hub/security/advisories"
+  },
+  "governance": {
+    "code_of_conduct": "CODE_OF_CONDUCT.md",
+    "contributing": "CONTRIBUTING.md",
+    "security_policy": "SECURITY.md",
+    "disclosure_policy": "DISCLOSURE_POLICY.md"
+  }
+}

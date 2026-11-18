@@ -1,0 +1,281 @@
+---
+layout: default
+title: STEM Education Hub
+description: Central curriculum index linking all STEM learning tools
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="STEM Education Hub - Central curriculum index linking all STEM learning tools">
+    <title>STEM Education Hub</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header" role="banner">
+        <div class="container">
+            <a href="/" class="site-logo" aria-label="STEM Education Hub Home">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                </svg>
+                <span class="logo-text">STEM Education Hub</span>
+            </a>
+            <nav class="site-nav" role="navigation" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="#tools" class="nav-link">Tools</a></li>
+                    <li><a href="#learning-paths" class="nav-link">Learning Paths</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                </ul>
+            </nav>
+            <div class="search-toggle" role="search" aria-label="Search tools and paths">
+                <input type="search" id="search-input" placeholder="Search tools, paths..." aria-label="Search" autocomplete="off">
+                <div id="search-results" class="search-results" role="listbox" aria-label="Search results" hidden></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="site-main" role="main">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <h1 id="hero-title">STEM Education Hub</h1>
+                <p class="hero-subtitle">Your central curriculum index for interactive STEM learning tools</p>
+                <div class="hero-stats" role="list" aria-label="Platform statistics">
+                    <div class="stat" role="listitem">
+                        <span class="stat-number">6</span>
+                        <span class="stat-label">Integrated Tools</span>
+                    </div>
+                    <div class="stat" role="listitem">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">Learning Paths</span>
+                    </div>
+                    <div class="stat" role="listitem">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">Possibilities</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tools" class="tools-section" aria-labelledby="tools-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="tools-title">STEM Learning Tools</h2>
+                    <p class="section-description">Click any tool card to launch the interactive learning environment</p>
+                </header>
+                <div class="tools-grid" role="list" aria-label="Available STEM tools">
+                    <article class="tool-card" role="listitem">
+                        <div class="tool-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3 class="tool-title">Mentorship Matcher</h3>
+                        <p class="tool-description">Find your ideal STEM mentor. YAML profiles with compatibility scoring algorithm.</p>
+                        <ul class="tool-tags" role="list">
+                            <li>YAML Profiles</li>
+                            <li>Compatibility Algorithm</li>
+                            <li>CLI Interface</li>
+                        </ul>
+                        <a href="https://github.com/myzticalbabe/stem-mentorship-matcher" class="tool-link" target="_blank" rel="noopener noreferrer">
+                            Launch Tool <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                        </a>
+                    </article>
+
+                    <article class="tool-card" role="listitem">
+                        <div class="tool-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14 2 14 8 20 8"/>
+                                <line x1="16" y1="13" x2="8" y2="13"/>
+                                <line x1="16" y1="17" x2="8" y2="17"/>
+                                <polyline points="10 9 9 9 8 9"/>
+                            </svg>
+                        </div>
+                        <h3 class="tool-title">Assessment System</h3>
+                        <p class="tool-description">Interactive quizzes with JSON question banks, MCQ/numeric support, and progress tracking.</p>
+                        <ul class="tool-tags" role="list">
+                            <li>MCQ & Numeric</li>
+                            <li>Progress Tracking</li>
+                            <li>Quiz Runner</li>
+                        </ul>
+                        <a href="https://github.com/myzticalbabe/stem-assessment-system" class="tool-link" target="_blank" rel="noopener noreferrer">
+                            Launch Tool <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                        </a>
+                    </article>
+
+                    <article class="tool-card" role="listitem">
+                        <div class="tool-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 3v4M12 17v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+                            </svg>
+                        </div>
+                        <h3 class="tool-title">Facilitator Toolkit</h3>
+                        <p class="tool-description">Complete lesson-plan templates with objectives, materials, steps, and assessment guides.</p>
+                        <ul class="tool-tags" role="list">
+                            <li>3 Lesson Templates</li>
+                            <li>Activity Guide Format</li>
+                            <li>Validator Script</li>
+                        </ul>
+                        <a href="https://github.com/myzticalbabe/stem-facilitator-toolkit" class="tool-link" target="_blank" rel="noopener noreferrer">
+                            Launch Tool <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                        </a>
+                    </article>
+
+                    <article class="tool-card" role="listitem">
+                        <div class="tool-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                                <path d="M15.54 15.54A5 5 0 1 1 8.46 8.46 4 4 0 0 0 15.54 15.54z"/>
+                            </svg>
+                        </div>
+                        <h3 class="tool-title">Inclusion Auditor</h3>
+                        <p class="tool-description">Audit markdown content for alt-text, readability grade, and non-inclusive language.</p>
+                        <ul class="tool-tags" role="list">
+                            <li>Alt-text Check</li>
+                            <li>Readability Grade</li>
+                            <li>Inclusive Language</li>
+                        </ul>
+                        <a href="https://github.com/myzticalbabe/stem-inclusion-auditor" class="tool-link" target="_blank" rel="noopener noreferrer">
+                            Launch Tool <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                        </a>
+                    </article>
+
+                    <article class="tool-card" role="listitem">
+                        <div class="tool-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                <path d="M9 12l2 2 4-4"/>
+                            </svg>
+                        </div>
+                        <h3 class="tool-title">Accessibility Framework</h3>
+                        <p class="tool-description">HTML accessibility checker for lang, contrast, labels - stdlib-only reusable engine.</p>
+                        <ul class="tool-tags" role="list">
+                            <li>Lang Attribute</li>
+                            <li>Contrast Check</li>
+                            <li>Label Validation</li>
+                        </ul>
+                        <a href="https://github.com/myzticalbabe/accessibility-audit-framework" class="tool-link" target="_blank" rel="noopener noreferrer">
+                            Launch Tool <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="learning-paths" class="learning-paths-section" aria-labelledby="learning-paths-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="learning-paths-title">Learning Paths</h2>
+                    <p class="section-description">Curated sequences guiding you from fundamentals to mastery</p>
+                </header>
+                <div class="paths-grid" role="list" aria-label="Available learning paths">
+                    <article class="path-card" role="listitem">
+                        <div class="path-header">
+                            <div class="path-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"/>
+                                    <line x1="12" y1="22" x2="12" y2="15.5"/>
+                                    <polyline points="22 8.5 12 15.5 2 8.5"/>
+                                </svg>
+                            </div>
+                            <div class="path-meta">
+                                <span class="path-level">Beginner → Intermediate</span>
+                                <span class="path-duration">~8 hours</span>
+                            </div>
+                        </div>
+                        <h3 class="path-title">STEM Foundations: Assessment-Driven Learning</h3>
+                        <p class="path-description">Start with diagnostic assessment, then progress through personalized question banks building core STEM competencies.</p>
+                        <ol class="path-steps" role="list" aria-label="Learning path steps">
+                            <li><strong>Diagnostic:</strong> Run stem-assessment-system quiz to identify knowledge gaps</li>
+                            <li><strong>Foundations:</strong> Complete arithmetic, algebra, and scientific method modules</li>
+                            <li><strong>Practice:</strong> Use stem-facilitator-toolkit lesson templates for guided exercises</li>
+                            <li><strong>Validate:</strong> Re-run assessment to measure progress and adjust path</li>
+                        </ol>
+                        <div class="path-tools">
+                            <span class="path-tool">📊 Assessment System</span>
+                            <span class="path-tool">📋 Facilitator Toolkit</span>
+                        </div>
+                        <a href="#" class="path-cta" disabled>Coming Soon</a>
+                    </article>
+
+                    <article class="path-card" role="listitem">
+                        <div class="path-header">
+                            <div class="path-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="9" cy="7" r="4"/>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                                </svg>
+                            </div>
+                            <div class="path-meta">
+                                <span class="path-level">All Levels</span>
+                                <span class="path-duration">Ongoing</span>
+                            </div>
+                        </div>
+                        <h3 class="path-title">Inclusive STEM Mentorship Journey</h3>
+                        <p class="path-description">Connect with mentors, build inclusive learning communities, and ensure accessible content at every step.</p </p>
+                        <ol class="path-steps" role="list" aria-label="Learning path steps">
+                            <li><strong>Profile:</strong> Create mentor/learner profile in stem-mentorship-matcher</li>
+                            <li><strong>Match:</strong> Run compatibility algorithm to find ideal partners</li>
+                            <li><strong>Audit:</strong> Use stem-inclusion-auditor on all shared materials</li>
+                            <li><strong>Verify:</strong> Run accessibility-audit-framework on published content</li>
+                            <li><strong>Iterate:</strong> Continuous improvement through feedback loops</li>
+                        </ol>
+                        <div class="path-tools">
+                            <span class="path-tool">👥 Mentorship Matcher</span>
+                            <span class="path-tool">🔍 Inclusion Auditor</span>
+                            <span class="path-tool">♿ Accessibility Framework</span>
+                        </div>
+                        <a href="#" class="path-cta" disabled>Coming Soon</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section" aria-labelledby="about-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="about-title">About STEM Education Hub</h2>
+                </header>
+                <div class="about-grid">
+                    <article class="about-card">
+                        <h3>Mission</h3>
+                        <p>Provide free, accessible, and interoperable STEM learning tools that work together seamlessly.</                    </article>
+                    <article class="about-card">
+                        <h3>Standards</h3>
+                        <p>All tools follow Soul Forge governance: accessibility audits, inclusion checks, and automated CI/CD.</p>
+                    </article>
+                    <article class="about-card">
+                        <h3>Open Source</h3>
+                        <p>Every tool is MIT-licensed, community-driven, and designed for extensibility and remixing.</                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <p>&copy; 2026 STEM Education Hub. Part of the <a href="https://github.com/myzticalbabe/babel">BaBeL Canon</a>.</p>
+            <nav aria-label="Footer links">
+                <ul>
+                    <li><a href="https://github.com/myzticalbabe/babel">BaBeL Canon</a></li>
+                    <li><a href="https://github.com/myzticalbabe/babel/blob/main/LICENSE">Soul Forge License</a></li>
+                    <li><a href="https://github.com/myzticalbabe/babel/blob/main/STEM.md">STEM Standards</a></li>
+                    <li><a href="https://github.com/myzticalbabe/babel/blob/main/ACCESSIBILITY.md">Accessibility Mandate</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="/assets/js/search.js"></script>
+</body>
+</html>
